@@ -171,7 +171,10 @@ justify-content:center;
 background: linear-gradient(90deg, rgba(102,102,104,1) 0%, rgba(173,127,157,1) 50%, rgba(255,239,241,1) 100%);
 }
 @media screen and (max-width:1024px){
-    
+    .fotorama img{
+        width:100%;
+        height:auto;
+    }
     .navLinks{
         width:60%;
     }
