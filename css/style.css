@@ -80,12 +80,49 @@ nav{
     opacity: 0;
     
 }
+#Utisci{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 20px;
+}
+.Utisak{
+    background-color: rgb(102,102,104);;
+    border-radius: 12px;
+    padding:20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:#ffeff1;
+    text-align: center;
+    text-justify: center;
+    width: 600px;
+    height: fit-content
+}
+.Utisak:hover{
+    color:#5a4346;
+    transform: translateX(5px);
+}
+#UtisciNaslov{
+    margin-left: 48%;
+   
+}
+#DivUtisci{
+
+    background-color: #5a4346;
+}
+.slikaUtisak{
+    width:100px;
+    border-radius: 50%;
+}
+#utisak3slika{
+    height:90px;
+}
 .isVisible{
  animation:fadein 1.5s linear 1 normal forwards;  
 }
 /*css USLUGE*/
 #container1{
-    background: rgb(102,102,104);
+background: rgb(102,102,104);
 background: linear-gradient(90deg, rgba(102,102,104,1) 0%, rgba(173,127,157,1) 50%, rgba(255,239,241,1) 100%);
 }
 #container1 ul{
@@ -182,7 +219,18 @@ background: linear-gradient(90deg, rgba(102,102,104,1) 0%, rgba(173,127,157,1) 5
         width:50%;
         height:auto;
     }
-    
+    #Utisci{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .Utisak{
+        margin-top:5px;
+        margin-top:5px;
+        padding:5px;
+        width:70%;
+    }
 }
 @media screen and (max-width:768px){
   
