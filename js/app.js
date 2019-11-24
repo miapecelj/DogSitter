@@ -18,10 +18,10 @@ const navSlide = () =>{
     
 }
 const f= ()=>{
-const container3=document.querySelector('.container3');
+const fotorama=document.querySelector('.fotorama');
 const burger = document.querySelector('.burger');
 burger.addEventListener('click', () =>{
-    container3.classList.toggle('container3a')
+    fotorama.classList.toggle('fotoramaA')
   });
 }
 

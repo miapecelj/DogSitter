@@ -1,3 +1,6 @@
+html{
+    overflow-x:hidden;
+}
 body{
     margin:0px;
     padding: 0px;
@@ -7,7 +10,9 @@ body{
     flex-direction: column;
     overflow-x:hidden;
 }
-
+#container{
+    height:fit-content;
+}
 #placeholder{
     display: flex;
     flex-direction: row-reverse;
@@ -67,7 +72,7 @@ nav{
 }
 #ONama{
     background-color: #5a4346;
-    height: 300px;
+    height: fit-content;
     text-align: center;
     padding:20px;
 }
@@ -166,9 +171,7 @@ justify-content:center;
 background: linear-gradient(90deg, rgba(102,102,104,1) 0%, rgba(173,127,157,1) 50%, rgba(255,239,241,1) 100%);
 }
 @media screen and (max-width:1024px){
-    body{
-        overflow-x:hidden;
-    }
+    
     .navLinks{
         width:60%;
     }
@@ -179,9 +182,7 @@ background: linear-gradient(90deg, rgba(102,102,104,1) 0%, rgba(173,127,157,1) 5
     
 }
 @media screen and (max-width:768px){
-    body{
-        overflow-x:hidden;
-    }
+  
     .navLinks{
         position: absolute;
         right:0px;
@@ -240,7 +241,7 @@ background: linear-gradient(90deg, rgba(102,102,104,1) 0%, rgba(173,127,157,1) 5
     
     
 }
-.container3a{
+.fotoramaA{
     display: none;
 }
 .nav-active{
