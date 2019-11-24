@@ -81,7 +81,9 @@ form.addEventListener('submit', (e)=>{
     e.preventDefault();
     error.innerText = messages.join(', ')
   }
-  
+  else{
+    alert("Poslato! Dobićete odgovor na mail.");
+  }
 })
 }
 
