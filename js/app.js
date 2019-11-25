@@ -1,4 +1,4 @@
-
+//Navigacija animacija
 const navSlide = () =>{
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.navLinks');
@@ -17,6 +17,7 @@ const navSlide = () =>{
     });
     
 }
+//Animacija galerija i usluga
 const f= ()=>{
 const fotorama=document.querySelector('.fotorama');
 const burger = document.querySelector('.burger');
@@ -36,6 +37,7 @@ burger.addEventListener('click', () =>{
 navSlide();
 f();
 k();
+//Scroll animacija
 function isElementInViewport(el) {
   const rect = el.getBoundingClientRect();
   return (
@@ -62,7 +64,7 @@ function loop(){
 }
 
 loop();
-
+//Validacija forme
 const error = document.getElementById('error');
 const form = document.getElementById('form');
 const ime = document.getElementById('ime');
