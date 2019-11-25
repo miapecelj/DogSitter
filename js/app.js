@@ -24,9 +24,18 @@ burger.addEventListener('click', () =>{
     fotorama.classList.toggle('fotoramaA')
   });
 }
+const k = ()=>{
+const Usluge = document.querySelector('.Usluge');
+const burger = document.querySelector('.burger');
+burger.addEventListener('click', () =>{
+  Usluge.classList.toggle('UslugeA');
+ 
+  });
+}
 
 navSlide();
 f();
+k();
 function isElementInViewport(el) {
   const rect = el.getBoundingClientRect();
   return (
@@ -53,6 +62,7 @@ function loop(){
 }
 
 loop();
+
 const error = document.getElementById('error');
 const form = document.getElementById('form');
 const ime = document.getElementById('ime');

@@ -142,8 +142,8 @@ background: linear-gradient(90deg, rgba(102,102,104,1) 0%, rgba(173,127,157,1) 5
     border: 1px solid black;
     }
     #usluga2{
-        background-image: url("img/andrew-santellan-eZKTAs5LoPA-unsplash.jpg");
-        height: 90vh;
+    background-image: url("img/andrew-santellan-eZKTAs5LoPA-unsplash.jpg");
+    height: 90vh;
     background-size: cover;
     background-position:center;
     position: relative;
@@ -152,18 +152,18 @@ background: linear-gradient(90deg, rgba(102,102,104,1) 0%, rgba(173,127,157,1) 5
     color:beige;
     }
     #usluga3{
-        background-image: url("img/vet.jpg");
-        height: 100vh;
-        background-size: cover;
-        background-position:center;
-        position: relative;
-        border: 1px solid black;
-        background-attachment: fixed;
+    background-image: url("img/vet.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    border: 1px solid black;
+    background-attachment: fixed;
     }
     #usluga4{
-        background-image: url("img/trening.jpg");
-        height: 90vh;
-        color:beige;
+    background-image: url("img/trening.jpg");
+    height: 90vh;
+    color:beige;
     background-size: cover;
     background-position: top;
     position: relative;
@@ -174,21 +174,9 @@ background: linear-gradient(90deg, rgba(102,102,104,1) 0%, rgba(173,127,157,1) 5
     .usluga{
         padding: 5px;
     }
-   /* #container1 ul li{
-        width: 90%;
-        margin-top:10px;
-        height: 200px;
-        background-color:hsla(353, 15%, 31%, 0.877) ;
-        border-radius: 12px;
-        text-align: center;
-        padding:5px;
+    .UslugeA{
+        visibility: hidden;
     }
-    #container1 ul li:hover{
-        color:#ffeff1;
-        transform: translateX(5px);
-        height:210px;
-    }
-    */
 /*css KONKTAKT*/
 #container2{
 height:565px;
@@ -278,7 +266,7 @@ background: linear-gradient(90deg, rgba(102,102,104,1) 0%, rgba(173,127,157,1) 5
 @media screen and (max-width:768px){
   
     .navLinks{
-        position: absolute;
+         position: absolute;
         right:0px;
         height: 92vh;
         top: 5vh;
@@ -303,23 +291,7 @@ background: linear-gradient(90deg, rgba(102,102,104,1) 0%, rgba(173,127,157,1) 5
     .ONamaTekst{
         width:50%;
     }
-    /*#container1{
-        width:100%;
-    }
-    #container1 ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-    }
-    #container1 ul li{
-        padding:20px;
-        margin:10px;
-        height: fit-content;
-        width:70%;
-    }
-    */
-  #usluga1{
+    #usluga1{
     width:100%;
     height:500px;
    }
@@ -334,7 +306,7 @@ background: linear-gradient(90deg, rgba(102,102,104,1) 0%, rgba(173,127,157,1) 5
     #usluga4{
      width:100%;
     height:500px;
-  }
+     }
     #container2{
     display: flex;
     flex-direction: column;
