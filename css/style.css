@@ -128,12 +128,53 @@ background: linear-gradient(90deg, rgba(102,102,104,1) 0%, rgba(173,127,157,1) 5
 }
 #container1 ul{
     list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    width:100%;
+    margin:0px;
+    padding:0px;
     }
-    #container1 ul li{
+    #usluga1{
+    height: 100vh;
+    background-image: url("img/ariana-prestes-f689QxNIciw-unsplash.jpg");  
+    background-size: cover;
+    background-position:center;
+    background-position: top;
+    position: relative;
+    border: 1px solid black;
+    }
+    #usluga2{
+        background-image: url("img/andrew-santellan-eZKTAs5LoPA-unsplash.jpg");
+        height: 90vh;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    border: 1px solid black;
+    background-attachment: fixed;
+    color:beige;
+    }
+    #usluga3{
+        background-image: url("img/vet.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position:center;
+        position: relative;
+        border: 1px solid black;
+        background-attachment: fixed;
+    }
+    #usluga4{
+        background-image: url("img/trening.jpg");
+        height: 90vh;
+        color:beige;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    border: 1px solid black;
+    background-attachment: fixed;
+
+    }
+    .usluga{
+        padding: 5px;
+    }
+   /* #container1 ul li{
         width: 90%;
         margin-top:10px;
         height: 200px;
@@ -147,6 +188,7 @@ background: linear-gradient(90deg, rgba(102,102,104,1) 0%, rgba(173,127,157,1) 5
         transform: translateX(5px);
         height:210px;
     }
+    */
 /*css KONKTAKT*/
 #container2{
 height:565px;
@@ -261,7 +303,7 @@ background: linear-gradient(90deg, rgba(102,102,104,1) 0%, rgba(173,127,157,1) 5
     .ONamaTekst{
         width:50%;
     }
-    #container1{
+    /*#container1{
         width:100%;
     }
     #container1 ul{
@@ -276,6 +318,23 @@ background: linear-gradient(90deg, rgba(102,102,104,1) 0%, rgba(173,127,157,1) 5
         height: fit-content;
         width:70%;
     }
+    */
+  #usluga1{
+    width:100%;
+    height:500px;
+   }
+   #usluga2{
+    width:100%;
+    height:500px;
+       }
+    #usluga3{
+    width:100%;
+    height:500px;
+    }
+    #usluga4{
+     width:100%;
+    height:500px;
+  }
     #container2{
     display: flex;
     flex-direction: column;
